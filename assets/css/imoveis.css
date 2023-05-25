@@ -1,0 +1,63 @@
+
+/*Apartamentos card*/
+.card {
+    box-shadow: 0 0 15px rgba(0, 109, 128, 0.5);
+  }
+  .card:hover {
+    box-shadow: 0 0 15px rgba(128, 0, 0, 0.5);
+  }
+
+  .titulo-card-apartamento{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+  }
+  .titulo-card-apartamento a{
+    text-decoration: none;
+    color: #1A1A1A;
+  }
+  .titulo-card-apartamento a:hover{
+    color:  #1EA69A;
+  }
+  
+.preco{
+    font-size: 250%;
+    color:#003E53;
+}
+.property-details {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .property-details span {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10px;
+  }
+  
+  .property-details span i {
+    margin-bottom: 5px;
+  }
+
+/*Fim dos Apartamentos card*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
