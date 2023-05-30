@@ -1,10 +1,30 @@
 
 /*Apartamentos card*/
-.card {
+.anuncios-imoveis{
+  background-color: #e4b430c2;
+  padding: 20px;
+  text-align: center;
+  
+}
+.anuncios-imoveis h3{
+  font-weight: 600;
+  font-size: 50px;
+  color: #FFF;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.anuncios-imoveis p{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 800;
+  font-size: 30px;
+  color: #FFF;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+.card-apartamentos {
     box-shadow: 0 0 15px rgba(0, 109, 128, 0.5);
   }
-  .card:hover {
-    box-shadow: 0 0 15px rgba(128, 0, 0, 0.5);
+  .card-apartamentos:hover {
+    box-shadow: 0 0 15px rgba(244, 248, 7, 0.733);
   }
 
   .titulo-card-apartamento{
@@ -42,6 +62,22 @@
 
 /*Fim dos Apartamentos card*/
 
+/*Inicio destaque mansoes*/
+.teste{
+  background-color: #252A2B;
+  color: #FFF;
+  margin: 5px;
+}
+.teste img {
+  padding: 10px;
+}
+.teste h3{
+  font-size: 40px;
+}
+.teste p{
+  font-size: 20px;
+}
+/*Fim destaque mansoes*/
 
 
 

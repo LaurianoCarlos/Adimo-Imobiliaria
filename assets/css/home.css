@@ -1,50 +1,86 @@
-
-
 /*inicio Imagem destaque*/
-.home{
+.home {
   width: 100%;
   height: 90vh;
-  background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.2)), url(/Adimo-Imobiliaria/assets/img/bg.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)), url(/Adimo-Imobiliaria/assets/img/bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
-.home .content{
+
+.home .content {
   text-align: center;
   padding-top: 200px;
 }
-.home .content h5{
+
+.home .content h5 {
   color: white;
   font-size: 38px;
   font-weight: 550;
   text-shadow: 0px 1px 1px black;
 }
-.home .content h1{
+
+.home .content h1 {
   color: white;
   font-size: 70px;
   font-weight: 550;
   text-shadow: 0px 1px 1px black;
   margin-top: 5px;
 }
-.changecontent::after{
+
+.changecontent::after {
   content: ' ';
   color: #ffa500;
   text-shadow: 0px 1px 1px black;
   animation: changetext 10s infinite linear;
 }
-@keyframes changetext{
-  0%{content: "Belo Horizonte";}
-  10%{content: "Rio de Janeiro";}
-  20%{content: "Sâo Paulo";}
-  30%{content: "Curitiba";}
-  40%{content: "Porto Alegre";}
-  50%{content: "Brasília";}
-  60%{content: "Nova York";}
-  70%{content: "Los Angeles";}
-  80%{content: "Chicago";}
-  90%{content: "Filadélfia";}
-  100%{content: "San Diego";}
-} 
-.home .content p{
+
+@keyframes changetext {
+  0% {
+    content: "Belo Horizonte";
+  }
+
+  10% {
+    content: "Rio de Janeiro";
+  }
+
+  20% {
+    content: "Sâo Paulo";
+  }
+
+  30% {
+    content: "Curitiba";
+  }
+
+  40% {
+    content: "Porto Alegre";
+  }
+
+  50% {
+    content: "Brasília";
+  }
+
+  60% {
+    content: "Nova York";
+  }
+
+  70% {
+    content: "Los Angeles";
+  }
+
+  80% {
+    content: "Chicago";
+  }
+
+  90% {
+    content: "Filadélfia";
+  }
+
+  100% {
+    content: "San Diego";
+  }
+}
+
+.home .content p {
   color: white;
   font-size: 15px;
   font-weight: 600;
@@ -52,7 +88,8 @@
   margin-bottom: 30px;
   margin-top: 5px;
 }
-.home .content a{
+
+.home .content a {
   padding: 10px;
   background: white;
   color: black;
@@ -62,53 +99,63 @@
   text-decoration: none;
   transition: 0.5s;
 }
-.home .content a:hover{
+
+.home .content a:hover {
   background: #ffa500;
   color: white;
 }
-@media (max-width:850px){
-  .home{
-      background-position: 50%;
+
+@media (max-width:850px) {
+  .home {
+    background-position: 50%;
   }
 }
-@media (max-width:450px){
-  .home .content h5{
-      font-size: 25px;
+
+@media (max-width:450px) {
+  .home .content h5 {
+    font-size: 25px;
   }
-  .home .content h1{
-      font-size: 38px;
+
+  .home .content h1 {
+    font-size: 38px;
   }
-  .home .content p{
-      font-size: 13px;
+
+  .home .content p {
+    font-size: 13px;
   }
 }
+
 /*Imagem Destaque*/
 
 
 /*Apartamentos card*/
 .card {
-    box-shadow: 0 0 15px rgba(0, 109, 128, 0.5);
-  }
-  .card:hover {
-    box-shadow: 0 0 15px rgba(128, 0, 0, 0.5);
-  }
-
-  .titulo-card-apartamento{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 600;
-  }
-  .titulo-card-apartamento a{
-    text-decoration: none;
-    color: #1A1A1A;
-  }
-  .titulo-card-apartamento a:hover{
-    color:  #1EA69A;
-  }
-  
-.preco{
-    font-size: 250%;
-    color:#003E53;
+  box-shadow: 0 0 15px rgba(0, 109, 128, 0.5);
 }
+
+.card:hover {
+  box-shadow: 0 0 15px rgba(128, 0, 0, 0.5);
+}
+
+.titulo-card-apartamento {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+}
+
+.titulo-card-apartamento a {
+  text-decoration: none;
+  color: #1A1A1A;
+}
+
+.titulo-card-apartamento a:hover {
+  color: #1EA69A;
+}
+
+.preco {
+  font-size: 250%;
+  color: #003E53;
+}
+
 .property-details {
   display: flex;
   flex-direction: row;
@@ -128,5 +175,93 @@
 
 /*Fim dos Apartamentos card*/
 
+/* Inicio Section Galeria  */
+.gallery {
+  margin-top: 50px;
+}
 
- 
+.gallery .card {
+  position: relative;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  cursor: pointer;
+}
+
+.gallery .card img {
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
+.gallery .card-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.gallery .card img:hover {
+  transform: scale(1.1);
+}
+
+/*Fim Section galeria*/
+
+
+/*Inicio carrossel frase*/
+.destaque {
+  background-image: url('/Adimo-Imobiliaria/assets/img/bg-destaque.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 0px
+}
+
+.carousel-item {
+  background-color: rgba(0, 0, 0, 0.6);
+  font-family: 'Roboto', sans-serif;
+}
+
+.carousel-item h2 {
+  text-align: center;
+  color: #ffd35b;
+  font-size: 300%;
+}
+
+.carousel-item P {
+  text-align: center;
+  color: #fff;
+  font-size: 150%;
+}
+
+/*fim carrossel frase*/
+
+/*Inicio Avaliação/Venda*/
+.coluna {
+  background-color: black;
+  margin: 10px;
+  padding: 10px;
+}
+
+.coluna h3,
+.coluna p,
+.coluna a {
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+.coluna img{
+padding: 15px;
+}
+.coluna a {
+text-decoration: none;
+}
+.coluna a:hover {
+text-decoration:underline;
+}
+/*Fim Avaliação/Venda*/
