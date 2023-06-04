@@ -15,54 +15,55 @@
 </head>
 
 <body>
-   <!--Menu principal topo-->
-   <header>
-    <nav class="navbar bg-dark navbar-dark navbar-expand-sm py-1 sticky-top">
-        <div class="container">
-            <h1><a href="index.html"><img src="../assets/img/logo-adimo.png" alt="Logo Adimo"
-                        class="img-fluid img-size-20"></a></h1>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNavBar">
-                <span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="menuNavBar">
-                <div class="navbar-nav ms-auto">
-                    <a href="imoveis.html" class="nav-link  active">Imoveis</a>
-                    <a href="lancamentos.html" class="nav-link">Lançamentos</a>
-                    <a href="#" class="nav-link">Sobre</a>
-                    <a href="contato.html" class="nav-link">Fale Conosco</a>
-                    <a href="login.html" class="nav-link">
-                        <i class="fas fa-user"></i> Login
-                    </a>
-                </div>
-            </div>
-    </nav>
-
-     <!-- Home Section Start -->
-     <div class="home">
-        <div class="content">
-            <h5>Tecnologia e luxo, é padrão Adimo</h5>
-            <h1><span class="changecontent"></span></h1>
-            <p>Descubra o poder da tecnologia aliada ao luxo</p>
-        </div>
-        <div>
+    <!--Menu principal topo-->
+    <header>
+        <nav class="navbar bg-dark navbar-dark navbar-expand-sm py-1 sticky-top">
             <div class="container">
-                <div class="row">
-                    <div class="col-8 offset-2 p-2 mt-2 justify-content-center">
-                        <form class="justify-content-center justify-content-md-center mb-5 mb-md-0">
-                            <div class="input-group input-group-sm">
-                                <input type="text" class="form-control fs-5" placeholder="O que procura?">
-                                <button class="btn btn-warning">Buscar</button>
-                            </div>
-                        </form>
+                <h1><a href="../index.html"><img src="../assets/img/logo-adimo.png" alt="Logo Adimo"
+                            class="img-fluid img-size-20"></a></h1>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNavBar">
+                    <span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="menuNavBar">
+                    <div class="navbar-nav ms-auto">
+                        <a href="/pages/imoveis.html" class="nav-link">Imoveis</a>
+                        <a href="/pages/lancamentos.html" class="nav-link">Lançamentos</a>
+                        <a href="/pages/sobre.html" class="nav-link">Sobre</a>
+                        <a href="/pages/contato.html" class="nav-link">Fale Conosco</a>
+                        <a href="/pages/login.html" class="nav-link">
+                            <i class="fas fa-user"></i> Login
+                        </a>
+                    </div>
+                </div>
+        </nav>
+        <!--Fim principal topo-->
+
+        <!-- Home Section Start -->
+        <div class="home">
+            <div class="content">
+                <h5>Tecnologia e luxo, é padrão Adimo</h5>
+                <h1><span class="changecontent"></span></h1>
+                <p>Descubra o poder da tecnologia aliada ao luxo</p>
+            </div>
+            <div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-8 offset-2 p-2 mt-2 justify-content-center">
+                            <form class="justify-content-center justify-content-md-center mb-5 mb-md-0">
+                                <div class="input-group input-group-sm">
+                                    <input type="text" class="form-control fs-5" placeholder="O que procura?">
+                                    <button class="btn btn-warning">Buscar</button>
+                                </div>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    
-<!-- Home Section End -->
 
-</header>
-<!--Fim principal topo-->
+        <!-- Home Section End -->
+
+    </header>
+    <!--Fim principal topo-->
 
     <section>
         <div class="container-fluid">
@@ -71,6 +72,56 @@
                 <hr>
                 <p>Aqui você vai encontrar uma coleção dos melhores imóveis de Luxo do Mundo</p>
             </div>
+
+            <nav class="navbar">
+                <div class=" opcoes-adimo container-fluid">
+                    <a class="navbar-brand" href="#">Mansões</a>
+                    <a class="navbar-brand" href="#">Apartamentos</a>
+                    <a class="navbar-brand" href="#">Fazendas</a>
+                    <a class="navbar-brand" href="#">Praias</a>
+                    <a class="navbar-brand" href="#">Capitais</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                        aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Adimo</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Contato</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Vender</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Falar com
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Agente</a></li>
+                                        <li><a class="dropdown-item" href="#">Anunciante</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">Atendimento Virtual</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <form class="d-flex mt-3" role="search">
+                                <input class="form-control me-2" type="search" placeholder="O que procura?" aria-label="Search">
+                                <button class="btn btn-outline-success" type="submit">Procurar</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </nav>
             <div class="row row-cols-1 row-cols-1 row-cols-lg-3">
 
                 <!--Inicio-->
@@ -81,12 +132,13 @@
                         <div class="card-body">
                             <h3 class="titulo-card-apartamento"><a href="#">Villa Serena - Jardins de Lírios
                                     400 m</a></h3>
-                            <p class="text-muted">Descubra o verdadeiro significado de morar com estilo no Villa Sereno</p>
+                            <p class="text-muted">Descubra o verdadeiro significado de morar com estilo no Villa Sereno
+                            </p>
                             <p class="property-details">
                                 <span><i><img src="../assets/img/icons/cama.png" alt="icone cama"></i> 4
                                     dormitórios</span>
-                                <span><i><img src="../assets/img/icons/banheira.png"
-                                            alt="icone banheira"></i> 6 Banheiros</span>
+                                <span><i><img src="../assets/img/icons/banheira.png" alt="icone banheira"></i> 6
+                                    Banheiros</span>
                                 <span><i><img src="../assets/img/icons/regua.png" alt=""></i> 200
                                     m²</span>
                             </p>
@@ -107,13 +159,14 @@
                         <div class="card-body">
                             <h3 class="titulo-card-apartamento"><a href="#">Residencial Esmeralda - Alameda das Acácias
                                     550 m</a></h3>
-                            <p class="text-muted"> É um refúgio elegante que combina a beleza da natureza com uma arquitetura moderna</p>
+                            <p class="text-muted"> É um refúgio elegante que combina a beleza da natureza com uma
+                                arquitetura moderna</p>
 
                             <p class="property-details">
                                 <span><i><img src="../assets/img/icons/cama.png" alt="icone cama"></i> 5
                                     dormitórios</span>
-                                <span><i><img src="../assets/img/icons/banheira.png"
-                                            alt="icone banheira"></i> 8 Banheiros</span>
+                                <span><i><img src="../assets/img/icons/banheira.png" alt="icone banheira"></i> 8
+                                    Banheiros</span>
                                 <span><i><img src="../assets/img/icons/regua.png" alt=""></i> 389
                                     m²</span>
                             </p>
@@ -134,13 +187,14 @@
                         <div class="card-body">
                             <h3 class="titulo-card-apartamento"><a href="#">Mansão Jardins do Sol, Bosque das Oliveiras
                                     480 m</a></h3>
-                            <p class="text-muted">As residências de luxo do Jardins do Sol foram projetadas para oferecer o máximo de conforto e privacidade.</p>
+                            <p class="text-muted">As residências de luxo do Jardins do Sol foram projetadas para
+                                oferecer o máximo de conforto e privacidade.</p>
 
                             <p class="property-details">
                                 <span><i><img src="../assets/img/icons/cama.png" alt="icone cama"></i> 5
                                     dormitórios</span>
-                                <span><i><img src="../assets/img/icons/banheira.png"
-                                            alt="icone banheira"></i> 6 Banheiros</span>
+                                <span><i><img src="../assets/img/icons/banheira.png" alt="icone banheira"></i> 6
+                                    Banheiros</span>
                                 <span><i><img src="../assets/img/icons/regua.png" alt=""></i> 257
                                     m²</span>
                             </p>
@@ -161,13 +215,14 @@
                         <div class="card-body">
                             <h3 class="titulo-card-apartamento"><a href="#">Condomínio Terra Nova - Vila dos Lagos
                                     400 m</a></h3>
-                            <p class="text-muted">Rodeado por belos lagos e paisagens serenas, o Condomínio Terra Nova oferece uma experiência de vida tranquila e harmoniosa.</p>
+                            <p class="text-muted">Rodeado por belos lagos e paisagens serenas, o Condomínio Terra Nova
+                                oferece uma experiência de vida tranquila e harmoniosa.</p>
 
                             <p class="property-details">
                                 <span><i><img src="/assets/img/icons/cama.png" alt="icone cama"></i> 5
                                     dormitórios</span>
-                                <span><i><img src="/assets/img/icons/banheira.png"
-                                            alt="icone banheira"></i> 7 Banheiros</span>
+                                <span><i><img src="/assets/img/icons/banheira.png" alt="icone banheira"></i> 7
+                                    Banheiros</span>
                                 <span><i><img src="/assets/img/icons/regua.png" alt=""></i> 260
                                     m²</span>
                             </p>
@@ -189,13 +244,14 @@
                         <div class="card-body">
                             <h3 class="titulo-card-apartamento"><a href="#">Alameda dos Bosques - Magnólias
                                     820 m</a></h3>
-                            <p class="text-muted">Situado em uma localização privilegiada, o Alameda dos Bosques combina harmoniosamente a natureza com a arquitetura elegante.</p>
+                            <p class="text-muted">Situado em uma localização privilegiada, o Alameda dos Bosques combina
+                                harmoniosamente a natureza com a arquitetura elegante.</p>
 
                             <p class="property-details">
                                 <span><i><img src="/assets/img/icons/cama.png" alt="icone cama"></i> 8
                                     dormitórios</span>
-                                <span><i><img src="/assets/img/icons/banheira.png"
-                                            alt="icone banheira"></i> 10 Banheiros</span>
+                                <span><i><img src="/assets/img/icons/banheira.png" alt="icone banheira"></i> 10
+                                    Banheiros</span>
                                 <span><i><img src="/assets/img/icons/regua.png" alt=""></i> 453
                                     m²</span>
                             </p>
@@ -216,13 +272,14 @@
                         <div class="card-body">
                             <h3 class="titulo-card-apartamento"><a href="#">Residencial Aurora - Alameda dos Jasmim
                                     700 m</a></h3>
-                            <p class="text-muted">Uma coleção exclusiva de casas de luxo em um condomínio de renome, cercado por paisagens deslumbrantes e uma atmosfera tranquila</p>
+                            <p class="text-muted">Uma coleção exclusiva de casas de luxo em um condomínio de renome,
+                                cercado por paisagens deslumbrantes e uma atmosfera tranquila</p>
 
                             <p class="property-details">
                                 <span><i><img src="/assets/img/icons/cama.png" alt="icone cama"></i> 5
                                     dormitórios</span>
-                                <span><i><img src="/assets/img/icons/banheira.png"
-                                            alt="icone banheira"></i> 7 Banheiros</span>
+                                <span><i><img src="/assets/img/icons/banheira.png" alt="icone banheira"></i> 7
+                                    Banheiros</span>
                                 <span><i><img src="/assets/img/icons/regua.png" alt=""></i> 400
                                     m²</span>
                             </p>
@@ -255,16 +312,19 @@
                     <div class="card-body">
                         <h3 class="card-title">Condomínio Primavera - Lagoa dos Cisnes</h3>
                         <p class="">R$ 60.200,000</p>
-                        <p>Desfrute de um estilo de vida sofisticado, rodeado por jardins exuberantes e uma infraestrutura completa de lazer.Localizado na charmosa Alameda dos Girassóis, o Residencial Montecarlo é um condomínio elegante que combina arquitetura clássica com amenidades modernas. Descubra o luxo e o conforto desta comunidade requintada.</p>
+                        <p>Desfrute de um estilo de vida sofisticado, rodeado por jardins exuberantes e uma
+                            infraestrutura completa de lazer.Localizado na charmosa Alameda dos Girassóis, o Residencial
+                            Montecarlo é um condomínio elegante que combina arquitetura clássica com amenidades
+                            modernas. Descubra o luxo e o conforto desta comunidade requintada.</p>
                         <button type="button" class="btn btn-warning">Mais detalhes</button>
                         <button type="button" class="btn btn-warning m-2">Fotos</button>
 
                         <p>Mansão moderna perto da praia a venda, Interlagos, segurança e conforto</p>
                         <p class="container-fluid">
-                            <span><i><img src="/assets/img/icons/cama-de-casal.png"
-                                        alt="icone cama"></i> 14 dormitórios</span>
-                            <span><i><img src="/assets/img/icons/banheira-branca.png"
-                                        alt="icone banheira"></i> 18 Banheiros</span>
+                            <span><i><img src="/assets/img/icons/cama-de-casal.png" alt="icone cama"></i> 14
+                                dormitórios</span>
+                            <span><i><img src="/assets/img/icons/banheira-branca.png" alt="icone banheira"></i> 18
+                                Banheiros</span>
                             <span><i><img src="/assets/img/icons/regua-branca.png" alt=""></i> 4000
                                 m²</span>
                         </p>
@@ -285,16 +345,18 @@
                     <div class="card-body">
                         <h3 class="card-title">Condomínio Vista Verde - Jardim das Colinas</h3>
                         <p class="">R$ 38.400,000</p>
-                        <p>Desfrute de vistas panorâmicas deslumbrantes no Condomínio Vista Verde, situado no prestigioso bairro Jardim das Colinas. Este condomínio exclusivo oferece um estilo de vida sofisticado e um ambiente tranquilo para os moradores.</p>
+                        <p>Desfrute de vistas panorâmicas deslumbrantes no Condomínio Vista Verde, situado no
+                            prestigioso bairro Jardim das Colinas. Este condomínio exclusivo oferece um estilo de vida
+                            sofisticado e um ambiente tranquilo para os moradores.</p>
                         <button type="button" class="btn btn-warning">Mais detalhes</button>
                         <button type="button" class="btn btn-warning m-2">Fotos</button>
 
                         <p>Mansão moderna perto da praia a venda, Interlagos, segurança e conforto</p>
                         <p class="container-fluid">
-                            <span><i><img src="/assets/img/icons/cama-de-casal.png"
-                                        alt="icone cama"></i> 14 dormitórios</span>
-                            <span><i><img src="/assets/img/icons/banheira-branca.png"
-                                        alt="icone banheira"></i> 18 Banheiros</span>
+                            <span><i><img src="/assets/img/icons/cama-de-casal.png" alt="icone cama"></i> 14
+                                dormitórios</span>
+                            <span><i><img src="/assets/img/icons/banheira-branca.png" alt="icone banheira"></i> 18
+                                Banheiros</span>
                             <span><i><img src="/assets/img/icons/regua-branca.png" alt=""></i> 4000
                                 m²</span>
                         </p>
@@ -315,18 +377,20 @@
                     <div class="card-body">
                         <h3 class="card-title">Jardins de Primavera - Residencial dos Bosques</h3>
                         <p class="">R$ 56.300,000</p>
-                        
-                        <p>Seja bem-vindo aos Jardins de Primavera, um condomínio encantador situado Residencial dos Bosques. Com jardins bem cuidados e um ambiente tranquilo, este condomínio oferece uma atmosfera serena para os moradores.</p>
+
+                        <p>Seja bem-vindo aos Jardins de Primavera, um condomínio encantador situado Residencial dos
+                            Bosques. Com jardins bem cuidados e um ambiente tranquilo, este condomínio oferece uma
+                            atmosfera serena para os moradores.</p>
                         <button type="button" class="btn btn-warning">Mais detalhes</button>
                         <button type="button" class="btn btn-warning m-2">Fotos</button>
 
-                        <p>Casa de Luxo  em condomínio</p>
-                        
+                        <p>Casa de Luxo em condomínio</p>
+
                         <p class="container-fluid">
-                            <span><i><img src="/assets/img/icons/cama-de-casal.png"
-                                        alt="icone cama"></i> 10 dormitórios</span>
-                            <span><i><img src="/assets/img/icons/banheira-branca.png"
-                                        alt="icone banheira"></i> 13 Banheiros</span>
+                            <span><i><img src="/assets/img/icons/cama-de-casal.png" alt="icone cama"></i> 10
+                                dormitórios</span>
+                            <span><i><img src="/assets/img/icons/banheira-branca.png" alt="icone banheira"></i> 13
+                                Banheiros</span>
                             <span><i><img src="/assets/img/icons/regua-branca.png" alt=""></i> 3100
                                 m²</span>
                         </p>

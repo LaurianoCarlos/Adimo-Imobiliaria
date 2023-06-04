@@ -116,7 +116,9 @@
   }
 }
 
-/*Imagem Destaque*/
+/* Fim Imagem Destaque*/
+
+
 /*Apartamentos card*/
 .anuncios-imoveis{
   background-color: #ffa500;
@@ -138,6 +140,17 @@
   color: #FFF;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
+
+.opcoes-adimo a{
+  font-family: 'Roboto', sans-serif;
+  color: #000;
+  font-style: italic;
+  font-size: 25px;
+}
+.opcoes-adimo a:hover{
+  color:  #1EA69A;
+}
+
 .card-apartamentos {
     box-shadow: 0 0 15px rgba(0, 109, 128, 0.5);
   }
